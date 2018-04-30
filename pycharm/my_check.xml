@@ -1,5 +1,6 @@
 <profile version="1.0">
   <option name="myName" value="my_check" />
+  <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyDictCreationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignoredErrors">
@@ -11,6 +12,7 @@
         <option value="W292" />
         <option value="E261" />
         <option value="E722" />
+        <option value="E501" />
       </list>
     </option>
   </inspection_tool>
